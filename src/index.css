@@ -1,0 +1,33 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Exo&family=Oswald:wght@300&family=Raleway&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Exo&family=Nunito:wght@300&family=Oswald:wght@300&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Lato&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+body {
+    /* font-family: 'Raleway', sans-serif; */
+    /* font-family: 'Exo', sans-serif; */
+    font-size: 14px;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.purple-text {
+    color: #4f52d3;
+    font-weight: 600;
+}
+
+.bold-font {
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+}
+
+:focus {
+    box-shadow: none !important;
+}

@@ -1,0 +1,98 @@
+/* 
+.react-tabs__tab--selected {
+    background-color: rgb(9, 6, 0) !important;
+} */
+.jobs-tabs-ctr {
+    padding-right: 20px;
+    background-color: #f7f7f9;
+
+}
+
+.jobs-tabs-ctr>.react-tabs__tab-list {
+    background-color: #f7f7f9;
+    border-radius: 1px;
+    font-size: 0.9em;
+    font-weight: 600;
+    color: #616161;
+    padding-top: 10px !important;
+    border-bottom: 2px solid #f7f7f9;
+
+}
+
+.react-tabs__tab-list>.react-tabs__tab {
+    border-radius: 1px;
+    padding: 10px;
+
+}
+
+.react-tabs__tab-list>.react-tabs__tab--selected {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #e3e3e3;
+    border-bottom: none;
+}
+
+.react-tabs {
+    height: 100%;
+}
+
+.react-tabs__tab-panel {
+    /* height: 100%; */
+    overflow-y: auto;
+    height: 408px;
+
+}
+
+
+.jobs-ctr {
+    margin: 30px auto;
+}
+
+.jobs {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 30px;
+
+
+}
+
+.ptn-jobs {
+    grid-area: 1/1/2/2;
+    width: 100%;
+}
+
+.srch-jobs {
+    grid-area: 1/2/2/3;
+}
+
+.load-more-btn {
+    background-color: #f7f7f9;
+    color: #000;
+    transition: all 0.5 ease-out;
+}
+
+.load-more-btn:hover {
+    background-color: #4f52d3;
+    color: #fff;
+}
+
+.load-more-ctr {
+    border: 1px solid #eceeef;
+    border-top: none;
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    .jobs {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .srch-jobs {
+        width: 100%;
+    }
+
+}
