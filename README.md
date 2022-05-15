@@ -1,5 +1,7 @@
 # IDSC TASK
 
+
+- LIVE DEMO [HERE](https://marinakhamis.github.io/Job-Finder-Task/)
 - Using React version "^18.1.0"
 
 - Note: If you're getting this error
