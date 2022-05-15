@@ -103,7 +103,7 @@ const Info = () => {
                             </div>
 
                         </Form.Group>
-                        <Form.Group className="p-4 form-group w-100 ">
+                        <Form.Group className="px-4 form-group w-100 ">
                             <button className='btn btn-primary subs-btn' variant="primary" type="submit">
                                 Subscribe
                             </button>
@@ -146,14 +146,13 @@ const Info = () => {
             {/*Start slider */}
             <div className='feat-jobs-slider'>
                 <h2 className='text-primary fw-bold'> Featured Jobs</h2>
-                <div className='border-secondary'>
                     <Swiper
                         slidesPerView={1}
                         spaceBetween={0}
                         slidesPerGroup={1}
                         navigation={true}
                         modules={[Navigation]}
-                        className="mySwiper"
+                        className="mySwiper border-secondary"
                     >
                         <SwiperSlide>
                             <JobSlideContent />
@@ -164,7 +163,6 @@ const Info = () => {
 
                     </Swiper>
 
-                </div>
 
             </div>
 
